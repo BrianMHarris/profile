@@ -1,0 +1,145 @@
+.pe-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  padding: 50px 0 40px 0;
+  box-sizing: border-box;
+}
+
+.pe-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 60%;
+  margin: 0 0 18px 0;
+}
+
+.pe-main-image img {
+  transition: .5s;
+  margin-bottom: 4px;
+}
+
+.pe-main-image:hover img {
+  transform: scale(1.2);
+}
+
+.pe-main-title {
+  font-family: "Poppins-Italic";
+}
+
+.pe-main-label {
+  font-size: 1.5em;
+  font-family: "Nunito", sans-serif;
+}
+
+.pe-main-title,
+.pe-main-tech {
+  font-size: 1.25em;
+}
+
+.pe-main-tech {
+  width: 80%;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.pe-screen {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0;
+  transition: .3s;
+}
+
+.pe-content:hover .pe-screen {
+  opacity: .8;
+}
+
+.pe-buttons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: .3s;
+}
+
+.pe-content:hover .pe-buttons {
+  opacity: 1;
+  top: 0%;
+}
+
+.pe-buttons-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.pe-buttons-btn a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 756px) {
+  .pe-content {
+    width: 50%;
+    height: 250px;
+  }
+
+  .pe-main-image img {
+    transform: scale(1.1);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .pe-content {
+    width: 33.3333%;
+    height: 300px;
+  }
+
+  .pe-main-image img {
+    transform: scale(1.25);
+  }
+}
+
+/* THEME CLASSES */
+
+.pe-portfolio {
+  color: var(--clr-paper-gray);
+  background-color: var(--clr-bg-navi);
+}
+
+.pe-tan {
+  color: var(--clr-txt-scndry);
+  background-color: var(--clr-bg-scndry);
+}
+
+.pe-dark {
+  color: var(--clr-txt-scndry);
+  background-color: var(--clr-txt-main);
+}
+
+.pe-blue {
+  color: var(--clr-txt-main);
+  background-color: var(--clr-txt-scndry);
+}
+
+.pe-tunelark {
+  color: var(--clr-tunelark-txt);
+  background-color: var(--clr-tunelark-bg);
+}
+
+.pe-course {
+  color: var(--clr-txt-white);
+  background-color: var(--clr-course-bg);
+}

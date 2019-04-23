@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About matches the snapshot 1`] = `
+<div
+  className="about-body"
+>
+  <div
+    id="about"
+  />
+  <section
+    className="about-content"
+  >
+    <div
+      className="about-title"
+    >
+      about me
+    </div>
+    <div
+      className="about-flex"
+    >
+      <p>
+        As a kid in the 90's, I got hooked on coding through creating little apps for AOL.
+      </p>
+      <p>
+        After studying Game Design and Development at Full Sail University, I spent 11 years in game design-related roles. I snuck in scripting as often I could.
+      </p>
+      <p>
+        As of 2017 I am again following my passion. In web development I get to use my imagination and skills to create and share incredible things.
+      </p>
+    </div>
+  </section>
+</div>
+`;

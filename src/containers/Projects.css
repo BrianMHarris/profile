@@ -1,0 +1,32 @@
+.projects-content {
+  width: 100%;
+  padding: 60px 0 0 0;
+}
+
+.projects-title {
+  font-size: 1.75em;
+  text-transform: uppercase;
+  font-family: 'Nunito', sans-serif;
+  color: var(--clr-txt-standout);
+  text-align: center;
+  margin: 0 0 16px 0;
+}
+
+.projects-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@media screen and (min-width: 361px) and (max-width: 767px) {
+  .projects-title {
+    font-size: 2.25em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .projects-title {
+    font-size: 2.5em;
+  }
+}

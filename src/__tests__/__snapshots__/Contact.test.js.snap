@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact matches the snapshot 1`] = `
+<div
+  className="contact-content"
+>
+  <div
+    id="contact"
+  />
+  <div
+    className="contact-title"
+  >
+    contact me
+  </div>
+  <div
+    className="contact-flex"
+  >
+    <div
+      className="contact-body"
+    >
+      <p>
+        If you have an inquiry or would like to speak with me about a project:
+      </p>
+      <div
+        className="contact-email"
+      >
+        <a
+          href="mailto:brianharris.dev@gmail.com"
+        >
+          <button
+            className="btnns-std btnns-hvr btnns-contact btnns-large"
+            onClick={null}
+            onMouseOut={undefined}
+            onMouseOver={undefined}
+            type={undefined}
+          >
+            Send an Email
+          </button>
+        </a>
+      </div>
+    </div>
+    <div
+      className="contact-form"
+    >
+      <p>
+        or fill out this handy form:
+      </p>
+      <div
+        className="cf-form"
+      >
+        <div
+          className="cf-body"
+        />
+        <form
+          action="#"
+          onSubmit={[Function]}
+        >
+          <div
+            className="cf-inputs-wrap"
+          >
+            <input
+              className="cf-input-name"
+              id="cf-fullName"
+              name="fullName"
+              onChange={[Function]}
+              placeholder="name"
+              required={true}
+              type="text"
+              value=""
+            />
+            <input
+              className="cf-input-email"
+              name="email"
+              onChange={[Function]}
+              placeholder="email"
+              required={true}
+              type="email"
+              value=""
+            />
+          </div>
+          <div
+            className="cf-inputs-fixed"
+          >
+            <textarea
+              className="cf-input-large cf-input-body"
+              name="body"
+              onChange={[Function]}
+              placeholder="message"
+              required={true}
+              type="text"
+              value=""
+            />
+          </div>
+          <button
+            className="btnns-std btnns-hvr btnns-contact btnns-nomargins"
+            onClick={null}
+            onMouseOut={undefined}
+            onMouseOver={undefined}
+            type="submit"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

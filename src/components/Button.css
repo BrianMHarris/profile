@@ -1,0 +1,54 @@
+.btn-link {
+  text-decoration: none;
+  cursor: default;
+}
+
+.btn-std {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 6px 3px;
+  font-size: 1.1em;
+  outline: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-hvr {
+  transition: .1s linear;
+}
+
+.btn-nav {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.45em;
+  letter-spacing: 4px;
+  color: var(--clr-txt-white);
+  background-color: transparent;
+  border: 2px solid transparent;
+  margin: 0 6px;
+}
+
+.btn-nav:hover {
+  color: var(--clr-bg-header);
+  background-color: var(--clr-txt-white);
+  border: 2px solid var(--clr-txt-white);
+}
+
+.btn-work {
+  color: var(--main-link-clr);
+  background-color: var(--main-workentry-hover-color);
+  border: none;
+  padding: 4px 12px 4px;}
+
+.btn-hvr-contact {
+  color: var(--main-link-clr);
+  background-color: var(--main-contact-bg-clr);
+  border: 2px solid var(--main-link-clr);
+}
+
+.btn-hvr-contact:hover {
+  color: var(--main-contact-bg-clr);
+  background-color: var(--main-link-clr);
+  border: 2px solid var(--main-link-clr);
+}

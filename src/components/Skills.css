@@ -1,0 +1,83 @@
+.skills-body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 60px 0;
+  background-color: #5C4B51;
+  background-image: url('../img/background/soft_wallpaper.png');
+  font-family: 'Poppins', sans-serif;
+}
+
+.skills-content {
+  width: 90%;
+  color: #5C4B51;
+}
+
+.skills-title {
+  font-size: 1.75em;
+  text-transform: uppercase;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  color: var(--clr-txt-standout);
+  padding: 0 0 16px 0;
+}
+
+.skills-flex {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.skills-group {
+  width: 33.33333%;
+}
+
+.skills-section-title,
+.skills-section-content {
+  font-size: 1.11em;
+}
+
+.skills-section-title {
+  text-decoration: underline;
+  text-align: center;
+  margin: 0 0 4px 0;
+
+}
+
+.skills-section-content {
+  font-family: 'Poppins', sans-serif;
+  margin: 0 0 15px 0;
+  max-width: 500px;
+}
+
+.skills-section-content ul {
+  list-style: none;
+  margin: 12px 0;
+  padding: 0;
+}
+
+.skills-section-content ul li{
+  text-align: center;
+}
+
+@media screen and (min-width: 361px) and (max-width: 767px) {
+  .skills-section-title,
+  .skills-section-content {
+    font-size: 1.25em;
+  }
+
+  .skills-title {
+    font-size: 2.25em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .skills-section-title,
+  .skills-section-content {
+    font-size: 1.5em;
+  }
+
+  .skills-title {
+    font-size: 2.5em;
+  }
+}

@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Nunito';
+  src: url('../fonts/Nunito-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins-Italic';
+  src: url('../fonts/Poppins-Italic.ttf');
+}
+
+/*@font-face {
+  font-family: 'CutiveMono';
+  src: url('../fonts/CutiveMono-Regular.ttf');
+}*/

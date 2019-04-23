@@ -1,0 +1,46 @@
+
+.hm-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 280px;
+  padding: 25px 0 0 0;
+  font-family: 'Poppins', serif;
+  letter-spacing: 1px;
+  color: var(--clr-txt-white);
+  background-color: var(--clr-bg-header);
+}
+
+.hm-title-intro,
+.hm-title-job {
+  font-size: 1.1em;
+}
+
+.hm-title-name {
+  font-size: 2.5em;
+}
+
+@media screen and (min-width: 361px) {
+  .hm-title-intro,
+  .hm-title-job {
+    font-size: 1.25em;
+  }
+
+  .hm-title-name {
+    font-size: 2.75em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hm-title-intro,
+  .hm-title-job {
+    font-size: 1.6em;
+  }
+
+  .hm-title-name {
+    font-size: 3.25em;
+  }
+}

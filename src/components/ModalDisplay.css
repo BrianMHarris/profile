@@ -1,0 +1,132 @@
+.md-overlay {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255,255,255, 0.5);
+}
+
+.md-main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 460px;
+  height: 500px;
+  padding: 30px;
+  box-sizing: border-box;
+  background-color: var(--clr-bg-main);
+  border-radius: 6px;
+  outline: none;
+  text-align: center;
+}
+
+.md-flex {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 162px;
+}
+
+.md-close-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 3px;
+}
+
+.md-close-btn button {
+  padding: 2px 6px;
+  font-size: 1.15em;
+  border-radius: 4px;
+  background-color: var(--clr-txt-standout);
+  color: var(--clr-txt-white);
+  cursor: pointer;
+}
+
+.md-image {
+  position: relative;
+  width: 100%;
+  height: 180px;
+}
+
+.md-image-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+  background-color: transparent;
+  background: -moz-linear-gradient(top, transparent 75%, var(--clr-bg-main) 93%);   /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(75%,transparent), color-stop(93%,var(--clr-bg-main))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, transparent 75%,var(--clr-bg-main) 93%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, transparent 75%,var(--clr-bg-main)); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, transparent 75%,var(--clr-bg-main) 93%); /* IE10+ */
+  background: linear-gradient(to bottom, transparent 75%, var(--clr-bg-main) 93%); /* W3C */
+}
+
+.md-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 180px;
+  box-sizing: border-box;
+  font-size: 1.1em;
+  font-color: var(--clr-txt-main);
+  font-family: 'Poppins', serif;
+  letter-spacing: .5px;
+}
+
+.md-title {
+  font-size: 1.5em;
+  font-family: 'Nunito', serif;
+}
+
+.md-link-btns {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  bottom: 14px;
+}
+
+.md-link-btns a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 359px) {
+  .md-main {
+    padding: 32px 8px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .md-title {
+    font-size: 1.6em;
+  }
+
+  .md-desc,
+  .md-tech {
+    font-size: 1.15em;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md-title {
+    font-size: 1.7em;
+  }
+
+  .md-desc,
+  .md-tech {
+    font-size: 1.3em;
+  }
+}

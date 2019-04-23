@@ -1,0 +1,20 @@
+:root {
+  --clr-bg-main: #F4F4F4;
+  --clr-bg-scndry: #DBCDAD;
+  --clr-bg-navi: #453d36;
+  --clr-bg-header: #453d36;
+  --clr-navi-hover: #ABABAB;
+  --clr-txt-main: #5C4B51;
+  --clr-txt-scndry: #7EABA0;
+  --clr-txt-white: #F4F4F4;
+  --clr-txt-standout: #1F2C3D;
+  --clr-shdw-border: #ababab;
+  --clr-paper-gray: #e6e6e6;
+  --clr-dark-blue: #494E68;
+
+  --clr-tunelark-txt: #ffb60c;
+  --clr-tunelark-bg: #1e95e2;
+  --clr-course-bg: #68b545;
+
+  --height-navi: 48px;
+}

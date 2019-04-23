@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home matches the snapshot 1`] = `
+<div
+  className="hm-content"
+>
+  <div
+    id="home"
+  />
+  <div
+    className="hm-title"
+  >
+    <div
+      className="hm-title-intro"
+    >
+      Hi, my name is
+    </div>
+    <div
+      className="hm-title-name"
+    >
+      Brian Harris.
+    </div>
+    <div
+      className="hm-title-job"
+    >
+      I'm a Full Stack Web Developer
+    </div>
+  </div>
+</div>
+`;

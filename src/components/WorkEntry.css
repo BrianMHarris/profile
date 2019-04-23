@@ -1,0 +1,50 @@
+.we-content {
+  position: relative;
+  width: 92%;
+  height: 224px;
+  min-width: 213px;
+  max-width: 400px;
+  margin: 0 0 5vw 0;
+  box-shadow: 5px 5px 10px var(--clr-shdw-border);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+/* allow bottom margin to be set by work container */
+.we-content:last-of-type {
+  margin-bottom: 0;
+}
+
+.we-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.we-main-image {
+  margin: 0 0 24px 0;
+}
+
+/* need responsive margins as well!*/
+@media screen and (min-width: 415px) {
+  .we-content {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .we-content {
+    width: 40%;
+    height: 250px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .we-content {
+    height: 300px;
+  }
+}
